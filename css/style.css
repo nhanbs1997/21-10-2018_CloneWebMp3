@@ -492,35 +492,53 @@
  	height: 4024px;
  	background-color: #f2f2f2;
  }
- section .noidung{
+ section .content{
  	width: 1000px;
  	height: 4024px;
  	background: #fff;
  	margin-left: 183px;
  	position: relative;
  }
- section .noidung .slideshow{
+ section .content .slideshow{
  	width: 650px;
  	height: 274px;
  	position: absolute;
  	top: 15px;
  	left: 15px;
  	bottom: 9px;
- 	background-color: blue;
  }
- section .noidung .anh-hover-slideshow{
+ .slides {
+ 	position: absolute;
+ 	overflow: hidden;
+ 	opacity: 0;
+ 	transition: opacity 1.5s ease-in-out;
+ }
+ .slide{
+ 	opacity: 1;
+ }
+
+ section .content .slideshow-anh{
  	width: 650px;
  	height: 46px;
+ 	position: absolute;
+ 	top: 298px;
+ 	left: 15px;
  }
- section .noidung .anh-hover-slideshow img{
+ section .content .slideshow-anh .slide-anh{
  	width: 123.5px;
  	height: 46px;
  	float: left;
  	padding-left: 8px;
  }
- section .noidung .anh-hover-slideshow img:first-child{
+ section .content .slideshow-anh .slide-anh:first-child{
  	padding-left: 0px;
  }
+ section .content .slideshow-anh .slide-anh img{
+ 	width: 100%;
+ 	height: 100%;
+ }
+
+ 
  /* End - Content */
  /* Start - Footer */
  footer{

@@ -50,22 +50,25 @@
 				</ul>
 			</div>
 		</header>
+		
 		<section>
-			<div class="noidung">
-				<div id="slideshow"></div>
-				<div class="anh-hover-slideshow">
-					<img id="img1" src="img/slideshow1.jpg">
-					<img id="img2" src="img/slideshow2.jpg">
-					<img id="img3" src="img/slideshow3.jpg">
-					<img id="img4" src="img/slideshow4.jpg">
-					<img id="img5" src="img/slideshow5.jpg">
+			<div class="content">
+				<div class="slideshow">
+					<div id="slideshow"></div>
+				</div>
+				<div class="slideshow-anh">
+					<div class="slide-anh"><img id="img1" src="img/slideshow1.jpg"></div>
+					<div class="slide-anh"><img id="img2" src="img/slideshow2.jpg"></div>
+					<div class="slide-anh"><img id="img3" src="img/slideshow3.jpg"></div>
+					<div class="slide-anh"><img id="img4" src="img/slideshow4.jpg"></div>
+					<div class="slide-anh"><img id="img5" src="img/slideshow5.jpg"></div>
 				</div>
 			</div>
-
+			<div id="demo"></div>
 		</section>
 		<footer></footer>
 	</div>
-	<script type="text/javascript">
+	<script>
 		$(function() {
 			$("#img1").hover(function() {
 				document.getElementById("slideshow").innerHTML = '<img src="img/slideshow1.jpg">';
@@ -77,12 +80,11 @@
 				document.getElementById("slideshow").innerHTML = '<img src="img/slideshow3.jpg">';
 			});
 			$("#img4").hover(function() {
-				document.getElementById("slideshow").innerHTML = '<img src="img/slideshow4.jpg">';
+				document.getElementById("slideshow").innerHTML = '<img src="img/slideshow4.jpg">>';
 			});
 			$("#img5").hover(function() {
 				document.getElementById("slideshow").innerHTML = '<img src="img/slideshow5.jpg">';
 			});
-			
 		});
 	</script>
 </body>
