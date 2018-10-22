@@ -53,8 +53,9 @@
 		
 		<section>
 			<div class="content">
+				<div id="demo"></div>
 				<div class="slideshow">
-					<div id="demo"></div>
+
 					<div class="slides slide"><img src="img/slideshow1.jpg"></div>
 					<div class="slides"><img src="img/slideshow2.jpg"></div>
 					<div class="slides"><img src="img/slideshow3.jpg"></div>
@@ -105,22 +106,48 @@
 
 
 		$(function() {
+
 			$("#img1").hover(function() {
 				document.getElementById("demo").innerHTML = '<img src="img/slideshow1.jpg">';
+				document.getElementById("demo").style.zIndex = "1";
+			}, function() {
+				document.getElementById("demo").style.zIndex = "-1";
 			});
+
+			
 			$("#img2").hover(function() {
 				document.getElementById("demo").innerHTML = '<img src="img/slideshow2.jpg">';
+				document.getElementById("demo").style.zIndex = "1";
+			}, function() {
+				document.getElementById("demo").style.zIndex = "-1";
 			});
+
+			
 			$("#img3").hover(function() {
 				document.getElementById("demo").innerHTML = '<img src="img/slideshow3.jpg">';
+				document.getElementById("demo").style.zIndex = "1";
+			}, function() {
+				document.getElementById("demo").style.zIndex = "-1";
 			});
+
+			
 			$("#img4").hover(function() {
 				document.getElementById("demo").innerHTML = '<img src="img/slideshow4.jpg">';
+				document.getElementById("demo").style.zIndex = "1";
+			}, function() {
+				document.getElementById("demo").style.zIndex = "-1";
 			});
+
 			$("#img5").hover(function() {
 				document.getElementById("demo").innerHTML = '<img src="img/slideshow5.jpg">';
+				document.getElementById("demo").style.zIndex = "1";
+			}, function() {
+				document.getElementById("demo").style.zIndex = "-1";
 			});
+
 		});
+
+
 	</script>
 </body>
 </html>
