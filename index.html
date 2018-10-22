@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Zing MP3</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" href="img/icon.png" type="image/x-icon" />
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<script type="text/javascript" src="js/javascript.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+	<div class="container">
+		<header>
+			<div class="navbar">
+				<div class="logo">
+					<a href="file:///C:/Users/User1/Desktop/GitHub/21-10-2018_CloneWebMp3/index.html"><img src="img/logo.png"></a>
+				</div>
+				<div class="input-timkiem">
+					<input type="text" placeholder="Nhập nội dung cần tìm">
+					<button><i class="fa fa-search"></i></button>
+				</div>
+				<div class="navbar-link">
+					<ul>
+						<a href="#"><li class="active">MP3</li></a>
+						<a href="#"><li>NEWS</li></a>
+						<a href="#"><li>TV</li></a>
+					</ul>
+				</div>
+				<div class="dangnhap">
+					<a href="#">Đăng nhập</a>
+				</div>
+			</div>
+			<div class="nav">
+				<ul>
+					<a href="#"><li style="width: 25px" class="fa fa-home"></li></a>
+					<a href="#"><li class="link">Nhạc Cá Nhân</li></a>
+					<div class="gach-doc"></div>	
+					<a href="#"><li class="link">#zingchart</li></a>
+					<a href="#"><li class="link">Top 100</li></a>
+					<a href="#"><li class="link">Chủ đề</li></a>
+					<a href="#"><li class="link">Video</li></a>
+					<a href="#"><li class="link">Album</li></a>
+					<a href="#"><li class="link">Nghệ sĩ</li></a>
+					<a href="#"><li class="link">VIP</li></a>
+					<a class="tat-quang-cao" href="#"><li><i class="fa fa-power-off"></i> Tắt quảng cáo</li></a>
+					<a href="#"><li style="width: 25px; height: 25px; color: #721799; float: right" class="material-icons">&#xe2c3;</li></a>
+				</ul>
+			</div>
+		</header>
+		<section>
+			<div class="noidung">
+				<div id="slideshow"></div>
+				<div class="anh-hover-slideshow">
+					<img id="img1" src="img/slideshow1.jpg">
+					<img id="img2" src="img/slideshow2.jpg">
+					<img id="img3" src="img/slideshow3.jpg">
+					<img id="img4" src="img/slideshow4.jpg">
+					<img id="img5" src="img/slideshow5.jpg">
+				</div>
+			</div>
+
+		</section>
+		<footer></footer>
+	</div>
+	<script type="text/javascript">
+		$(function() {
+			$("#img1").hover(function() {
+				document.getElementById("slideshow").innerHTML = '<img src="img/slideshow1.jpg">';
+			});
+			$("#img2").hover(function() {
+				document.getElementById("slideshow").innerHTML = '<img src="img/slideshow2.jpg">';
+			});
+			$("#img3").hover(function() {
+				document.getElementById("slideshow").innerHTML = '<img src="img/slideshow3.jpg">';
+			});
+			$("#img4").hover(function() {
+				document.getElementById("slideshow").innerHTML = '<img src="img/slideshow4.jpg">';
+			});
+			$("#img5").hover(function() {
+				document.getElementById("slideshow").innerHTML = '<img src="img/slideshow5.jpg">';
+			});
+			
+		});
+	</script>
+</body>
+</html>
