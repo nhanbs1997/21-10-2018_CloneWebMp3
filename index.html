@@ -54,7 +54,13 @@
 		<section>
 			<div class="content">
 				<div class="slideshow">
-					<div id="slideshow"></div>
+					<div id="demo"></div>
+					<div class="slides slide"><img src="img/slideshow1.jpg"></div>
+					<div class="slides"><img src="img/slideshow2.jpg"></div>
+					<div class="slides"><img src="img/slideshow3.jpg"></div>
+					<div class="slides"><img src="img/slideshow4.jpg"></div>
+					<div class="slides"><img src="img/slideshow5.jpg"></div>
+					
 				</div>
 				<div class="slideshow-anh">
 					<div class="slide-anh"><img id="img1" src="img/slideshow1.jpg"></div>
@@ -64,26 +70,55 @@
 					<div class="slide-anh"><img id="img5" src="img/slideshow5.jpg"></div>
 				</div>
 			</div>
-			<div id="demo"></div>
 		</section>
 		<footer></footer>
+		<p>Hover vào đây hiện thông báo "Bạn đã Hover p"</p>
+		<script>
+			$(function() {
+				$("p").hover(function() {
+					document.getElementByClass("demo").("Bạn đã Hover p");
+				});
+			});
+		</script>
 	</div>
 	<script>
+		$(function(){
+			var cheDo = "tudong";
+			setInterval(function(){
+				if(cheDo==="tudong"){
+					hienAnhTiepTheo();
+				}
+			},3000);
+			function hienAnhTiepTheo(){
+				var $a = $('.slide');
+				var $b = $a.next('.slides');
+				if($b.length){
+					$a.removeClass('slide');
+					$b.addClass('slide');
+				}else{
+					$a.removeClass('slide');
+					$('.slides:first-child').addClass('slide');
+				}
+			}
+		});
+
+
+
 		$(function() {
 			$("#img1").hover(function() {
-				document.getElementById("slideshow").innerHTML = '<img src="img/slideshow1.jpg">';
+				document.getElementById("demo").innerHTML = '<img src="img/slideshow1.jpg">';
 			});
 			$("#img2").hover(function() {
-				document.getElementById("slideshow").innerHTML = '<img src="img/slideshow2.jpg">';
+				document.getElementById("demo").innerHTML = '<img src="img/slideshow2.jpg">';
 			});
 			$("#img3").hover(function() {
-				document.getElementById("slideshow").innerHTML = '<img src="img/slideshow3.jpg">';
+				document.getElementById("demo").innerHTML = '<img src="img/slideshow3.jpg">';
 			});
 			$("#img4").hover(function() {
-				document.getElementById("slideshow").innerHTML = '<img src="img/slideshow4.jpg">>';
+				document.getElementById("demo").innerHTML = '<img src="img/slideshow4.jpg">';
 			});
 			$("#img5").hover(function() {
-				document.getElementById("slideshow").innerHTML = '<img src="img/slideshow5.jpg">';
+				document.getElementById("demo").innerHTML = '<img src="img/slideshow5.jpg">';
 			});
 		});
 	</script>
