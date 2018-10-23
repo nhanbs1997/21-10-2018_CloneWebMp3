@@ -499,12 +499,20 @@
  	margin-left: 183px;
  	position: relative;
  }
- section .content .slideshow{
+ section .content .content-left{
  	width: 650px;
- 	height: 274px;
+ 	height: 4000px;
  	position: absolute;
  	top: 15px;
  	left: 15px;
+ 	bottom: 9px;
+ }
+ section .content .content-left .slideshow{
+ 	width: 650px;
+ 	height: 274px;
+ 	position: absolute;
+ 	top: 0px;
+ 	left: 0px;
  	bottom: 9px;
  }
  .slides {
@@ -517,32 +525,238 @@
  	opacity: 1;
  }
 
- section .content .slideshow-anh{
+ section .content .content-left .slideshow-anh{
  	width: 650px;
  	height: 46px;
  	position: absolute;
- 	top: 298px;
- 	left: 15px;
+ 	top: 283px;
  }
- section .content .slideshow-anh .slide-anh{
+ section .content .content-left .slideshow-anh .slide-anh{
  	width: 123.5px;
  	height: 46px;
  	float: left;
  	padding-left: 8px;
  }
- section .content .slideshow-anh .slide-anh:first-child{
+ section .content .content-left .slideshow-anh .slide-anh:first-child{
  	padding-left: 0px;
  }
- section .content .slideshow-anh .slide-anh img{
+ section .content .content-left .slideshow-anh .slide-anh img{
  	width: 100%;
  	height: 100%;
  }
  #demo{
  	z-index: -1;
  	position: absolute;
- 	top:15px;
- 	left: 15px;
+ 	top: 0px;
+ 	left: 0px;
  }
+ section .content .content-left .zing-chart{
+ 	width: 650px;
+ 	height: 280px;
+ 	position: absolute;
+ 	top: 360px;
+ }
+ section .content .content-left .bang-xep-hang{
+ 	width: 650px;
+ 	height: 404px;
+ 	position: absolute;
+ 	top: 645px;
+ }
+ section .content .content-left .bang-xep-hang .top1{
+ 	width: 650px;
+ 	height: 80px;
+ 	border-bottom: solid 1px #ECECEC;
+ }
+ section .content .content-left .bang-xep-hang .top1 .label-top1{
+ 	width: 14px;
+ 	height: 22px;
+ 	color: #4a90e2;
+    font-size: 22px;
+    position: absolute;
+    left: 0px;
+    top: 27px;
+ }
+ section .content .content-left .bang-xep-hang .top1 .gach-ngang{
+ 	position: absolute;
+ 	top: 27px;
+ 	left: 42px;
+
+ }
+ section .content .content-left .bang-xep-hang .top1 .anh{
+ 	width: 60px;
+ 	height: 60px;
+	position: absolute;
+	left: 80px;
+	top: 10px;
+ }
+ section .content .content-left .bang-xep-hang .top1 .ten-bai-hat{
+ 	width: 71px;
+ 	height: 18px;
+ 	position: absolute;
+ 	left: 150px;
+ 	top: 12px;
+ 	font-family: "Roboto","segoe ui",Helvetica,Arial,sans-serif;
+ 	font-size: 14px;
+ }
+ section .content .content-left .bang-xep-hang .top1 .ten-bai-hat:hover{
+ 	color: purple;
+ }
+ section .content .content-left .bang-xep-hang .top1 .ten-bai-hat a{
+	text-decoration: none;
+		color: black;
+}
+ section .content .content-left .bang-xep-hang .top1 .ten-ca-si{
+ 	width: 113px;
+ 	height: 14px;
+ 	position: absolute;
+ 	left: 150px;
+ 	top: 37px;
+ 	font-size: 12px
+ }
+ section .content .content-left .bang-xep-hang .top1 .ten-ca-si a{
+	text-decoration: none;
+		color: #888;
+}
+ section .content .content-left .bang-xep-hang .top1 .icon{
+ 	width: 105px;
+ 	height: 15px;
+ 	position: absolute;
+ 	top: 31px;
+ 	left: 437px;
+ }
+ section .content .content-left .bang-xep-hang .top1 .icon img{
+ 	padding-right: 8px;
+ }
+ section .content .content-left .bang-xep-hang .top1 .luot-xem{
+ 	width: 48px;
+ 	height: 15px;
+ 	position: absolute;
+ 	top: 31px;
+ 	left: 580px;
+ 	color: #666;
+ 	font-family: "Roboto","segoe ui",Helvetica,Arial,sans-serif;
+ 	font-size: 16px;
+ }
+
+ section .content .content-right{
+ 	width: 300px;
+ 	height: 4000px;
+ 	position: absolute;
+ 	top: 15px;
+ 	right: 15px;
+ }
+ section .content .content-right .music-for-you{
+ 	width: 300px;
+ 	height: 126px;
+ 	background: linear-gradient(
+ 		rgba(0, 0, 0, 0.6), 
+ 		rgba(0, 0, 0, 0.6)
+ 		), url(../img/background-music-for-you.png);
+ 	background-repeat: no-repeat;
+ }
+ section .content .content-right .music-for-you .img-music-for-you{
+ 	width: 90px;
+ 	height: 90px;
+ 	position: absolute;
+ 	top: 20px;
+ 	left: 20px;
+ }
+ section .content .content-right .music-for-you .img-music-for-you:hover{
+ 	opacity: 0.5;
+ 	transition-duration: 1s;
+ }
+ section .content .content-right .music-for-you a{
+ 	text-decoration: none;
+ 	color: white;
+ }
+ section .content .content-right .music-for-you .img-music-for-you img{
+ 	width: 100%;
+ 	height: 100%;
+ }
+ section .content .content-right .music-for-you i{
+ 	font-size: 50px;
+ 	position: absolute;
+ 	top: 20px;
+ 	left: 20px;
+ 	font-weight: 100;
+ }
+ section .content .content-right .music-for-you .danh-rieng-cho-ban{
+ 	width: 138px;
+ 	height: 15px;
+ 	position: absolute;
+ 	left: 122px;
+ 	top: 24px;
+ 	font-weight: 700;
+ 	font-size: 14px;
+ 	font-family: "Roboto","segoe ui",Helvetica,Arial,sans-serif;
+ }
+ section .content .content-right .music-for-you .title-nhung-ca-khuc{
+ 	width: 151px;
+ 	height: 48px;
+ 	position: absolute;
+ 	top: 47px;
+ 	right: 28px;
+ 	font-size: 13px;
+ 	font-family: "Roboto","segoe ui",Helvetica,Arial,sans-serif;
+ }
+ section .content .content-right .chu-de-hot{
+ 	width: 108px;
+ 	height: 19px;
+ 	position: absolute;
+ 	top: 147px;
+ 	color: #800080;
+ 	font-family: "Open Sans","segoe ui",Helvetica,Arial,sans-serif;
+ 	font-size: 17px;
+ }
+ section .content .content-right .chu-de-1{
+ 	width: 300px;
+ 	height: 90px;
+ 	position: absolute;
+ 	top: 186px;
+ }
+ section .content .content-right .chu-de-2{
+ 	width: 300px;
+ 	height: 90px;
+ 	position: absolute;
+ 	top: 291px;
+ }
+ section .content .content-right .chu-de-3{
+ 	width: 300px;
+ 	height: 90px;
+ 	position: absolute;
+ 	top: 397px;
+ }
+ section .content .content-right .chu-de-4{
+ 	width: 300px;
+ 	height: 90px;
+ 	position: absolute;
+ 	top: 501px;
+ }
+ section .content .content-right .chu-de-5{
+ 	width: 300px;
+ 	height: 90px;
+ 	position: absolute;
+ 	top: 606px;
+ }
+ section .content .content-right .xem-them-chu-de{
+ 	width: 164px;
+ 	height: 17px;
+ 	position: absolute;
+ 	top: 711px;
+ 	font-family: "Roboto","segoe ui",Helvetica,Arial,sans-serif;
+ 	font-size: 14px;
+ 	line-height: 17px;
+ }
+ section .content .content-right .xem-them-chu-de a{
+ 	text-decoration: none;
+ 	color: #818181;
+ }
+ section .content .content-right .xem-them-chu-de img{
+ 	position: absolute;
+ 	right: 0px;
+ 	bottom: 0px;
+ }
+
  /* End - Content */
  /* Start - Footer */
  footer{
