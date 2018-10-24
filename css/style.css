@@ -784,12 +784,112 @@
  	height: 213px;
  	position: absolute;
  	top: 2225px;
- 	background-color: blue;
  }
  section .content .content-left .album .album-anh{
-	width: 150px;
-	height: 150px;
-	background-color: orange;
+ 	width: 150px;
+ 	height: 150px;
+ }
+ section .content .content-left .album .album-ten{
+ 	width: 150px;
+ 	height: 34px;
+ 	position: absolute;
+ 	top: 163px;
+ 	font-size: 14px;
+ 	font-family: "Roboto","segoe ui",Helvetica,Arial,sans-serif;
+ }
+ section .content .content-left .album .album-ten a{
+ 	text-decoration: none;
+ 	color: black;
+ }
+ section .content .content-left .album .album-ten a:hover{
+ 	color:#a845de;
+ }
+ section .content .content-left .album .album-ca-si{
+ 	width: 150px;
+ 	height: 13px;
+ 	position: absolute;
+ 	top: 183px;
+ 	font-family: "Roboto","segoe ui",Helvetica,Arial,sans-serif;
+ 	font-size: 12px;
+ }
+ section .content .content-left .album .album-ca-si a{
+ 	text-decoration: none;
+ 	color: #888;
+ }
+ section .content .content-left .album .album-ca-si a:hover{
+ 	color:#a845de;
+ }
+ section .content .content-left .nhac-viet-hot{
+ 	width: 326px;
+ 	height: 661px;
+ 	position: absolute;
+ 	top: 2948px;
+ 	border-right: 1px solid #dedede;
+ }
+ section .content .content-left .nhac-viet-hot .title{
+ 	width: 205px;
+ 	height: 29px;
+ 	position: absolute;
+ 	top: 4px;
+ 	font-family: "Open Sans","segoe ui",Helvetica,Arial,sans-serif;
+ 	font-size: 26px; 	
+ 	line-height: 29px;
+ 	position: relative;
+ }
+ section .content .content-left .nhac-viet-hot .title a{
+ 	text-decoration: none;
+ 	color: purple;
+ }
+ section .content .content-left .nhac-viet-hot .title img{
+ 	position: absolute;
+ 	right: 0px;
+ 	top: 8px;
+ }
+ section .content .content-left .nhac-viet-hot .container-1-bai{
+ 	width: 314px;
+ 	height: 56px;
+ 	position: absolute;
+ 	top: 57px;
+ 	border-bottom: 1px solid #f2f2f2;
+ }
+ section .content .content-left .nhac-viet-hot .container-1-bai .nhac-viet-anh{
+ 	width: 48px;
+ 	height: 50px;
+ 	background-color: violet;
+ }
+ section .content .content-left .nhac-viet-hot .container-1-bai .nhac-viet-ten{
+	width: 250px;
+	height: 13px;
+	position: absolute;
+	top: 8px;
+	left: 60px;
+	font-size: 14px;
+	line-height: 13px;
+    font-family: "Roboto","segoe ui",Helvetica,Arial,sans-serif;
+ }
+ section .content .content-left .nhac-viet-hot .container-1-bai .nhac-viet-ten a{
+ 	color: black;
+ 	text-decoration: none;
+ }
+ section .content .content-left .nhac-viet-hot .container-1-bai .nhac-viet-ten a:hover{
+ 	color: #721799;
+ }
+ section .content .content-left .nhac-viet-hot .container-1-bai .nhac-viet-ca-si{
+ 	width: 250px;
+ 	height: 15px;
+ 	position: absolute;
+ 	top: 27px;
+ 	left: 59px;
+ 	font-family: "Roboto","segoe ui",Helvetica,Arial,sans-serif;
+ 	font-size: 12px;
+ 	line-height: 15px;
+ }
+ section .content .content-left .nhac-viet-hot .container-1-bai .nhac-viet-ca-si a{
+	color: #888;
+ 	text-decoration: none;
+ }
+ section .content .content-left .nhac-viet-hot .container-1-bai .nhac-viet-ca-si a:hover{
+ 	color: #a845de;
  }
  section .content .content-right{
  	width: 300px;
