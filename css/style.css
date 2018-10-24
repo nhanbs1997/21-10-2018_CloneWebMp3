@@ -562,35 +562,56 @@
  	position: absolute;
  	top: 645px;
  }
- section .content .content-left .bang-xep-hang .top1{
+ section .content .content-left .bang-xep-hang .top1, .top2, .top3, .top4, .top5{
  	width: 650px;
  	height: 80px;
  	border-bottom: solid 1px #ECECEC;
+ 	position: relative;
  }
- section .content .content-left .bang-xep-hang .top1 .label-top1{
+ section .content .content-left .bang-xep-hang .top5{
+ 	border-bottom: none;
+ }
+ section .content .content-left .bang-xep-hang .top1 .label-top1, .label-top2, .label-top3, .label-top4, .label-top5 {
  	width: 14px;
  	height: 22px;
  	color: #4a90e2;
-    font-size: 22px;
-    position: absolute;
-    left: 0px;
-    top: 27px;
+ 	font-size: 22px;
+ 	position: absolute;
+ 	left: 0px;
+ 	top: 27px;
+ 	font-family: "Roboto","segoe ui",Helvetica,Arial,sans-serif;
  }
- section .content .content-left .bang-xep-hang .top1 .gach-ngang{
+ section .content .content-left .bang-xep-hang .top2 .label-top2{
+ 	color: #00AF64;
+ 	font-size: 20px;
+ }
+ section .content .content-left .bang-xep-hang .top3 .label-top3{
+ 	color: #D8541C;
+ 	font-size: 20px;
+ }
+ section .content .content-left .bang-xep-hang .top4 .label-top4{
+ 	color: #666;
+ 	font-size: 20px;
+ }
+ section .content .content-left .bang-xep-hang .top5 .label-top5{
+ 	color: #666;
+ 	font-size: 20px;
+ }
+ section .content .content-left .bang-xep-hang .top1 .gach-ngang, .top2 .gach-ngang, .top3 .gach-ngang, .top4 .gach-ngang, .top5 .gach-ngang{
  	position: absolute;
  	top: 27px;
  	left: 42px;
 
  }
- section .content .content-left .bang-xep-hang .top1 .anh{
+ section .content .content-left .bang-xep-hang .top1 .anh, .top2 .anh, .top3 .anh, .top4 .anh, .top5 .anh{
  	width: 60px;
  	height: 60px;
-	position: absolute;
-	left: 80px;
-	top: 10px;
+ 	position: absolute;
+ 	left: 80px;
+ 	top: 10px;
  }
- section .content .content-left .bang-xep-hang .top1 .ten-bai-hat{
- 	width: 71px;
+ section .content .content-left .bang-xep-hang .top1 .ten-bai-hat, .top2 .ten-bai-hat, .top3 .ten-bai-hat, .top4 .ten-bai-hat, .top5 .ten-bai-hat{
+ 	width: 166px;
  	height: 18px;
  	position: absolute;
  	left: 150px;
@@ -598,36 +619,37 @@
  	font-family: "Roboto","segoe ui",Helvetica,Arial,sans-serif;
  	font-size: 14px;
  }
- section .content .content-left .bang-xep-hang .top1 .ten-bai-hat:hover{
+ section .content .content-left .bang-xep-hang .top1 .ten-bai-hat a:hover, .top2 .ten-bai-hat a:hover, .top3 .ten-bai-hat a:hover, .top4 .ten-bai-hat a:hover, .top5 .ten-bai-hat a:hover{
  	color: purple;
  }
- section .content .content-left .bang-xep-hang .top1 .ten-bai-hat a{
-	text-decoration: none;
-		color: black;
-}
- section .content .content-left .bang-xep-hang .top1 .ten-ca-si{
- 	width: 113px;
+ section .content .content-left .bang-xep-hang .top1 .ten-bai-hat a, .top2 .ten-bai-hat a, .top3 .ten-bai-hat a, .top4 .ten-bai-hat a, .top5 .ten-bai-hat a{
+ 	text-decoration: none;
+ 	color: black;
+ }
+ section .content .content-left .bang-xep-hang .top1 .ten-ca-si, .top2 .ten-ca-si, .top3 .ten-ca-si, .top4 .ten-ca-si, .top5 .ten-ca-si{
+ 	width: 185px;
  	height: 14px;
  	position: absolute;
  	left: 150px;
  	top: 37px;
- 	font-size: 12px
+ 	font-size: 12px;
+ 	font-family: "Roboto","segoe ui",Helvetica,Arial,sans-serif;
  }
- section .content .content-left .bang-xep-hang .top1 .ten-ca-si a{
-	text-decoration: none;
-		color: #888;
-}
- section .content .content-left .bang-xep-hang .top1 .icon{
+ section .content .content-left .bang-xep-hang .top1 .ten-ca-si a, .top2 .ten-ca-si a, .top3 .ten-ca-si a, .top4 .ten-ca-si a, .top5 .ten-ca-si a{
+ 	text-decoration: none;
+ 	color: #888;
+ }
+ section .content .content-left .bang-xep-hang .top1 .icon, .top2 .icon, .top3 .icon, .top4 .icon, .top5 .icon{
  	width: 105px;
  	height: 15px;
  	position: absolute;
  	top: 31px;
  	left: 437px;
  }
- section .content .content-left .bang-xep-hang .top1 .icon img{
+ section .content .content-left .bang-xep-hang .top1 .icon img, .top2 .icon img, .top3 .icon img, .top4 .icon img, .top5 .icon img{
  	padding-right: 8px;
  }
- section .content .content-left .bang-xep-hang .top1 .luot-xem{
+ section .content .content-left .bang-xep-hang .top1 .luot-xem, .top2 .luot-xem, .top3 .luot-xem, .top4 .luot-xem, .top5 .luot-xem{
  	width: 48px;
  	height: 15px;
  	position: absolute;
@@ -637,7 +659,138 @@
  	font-family: "Roboto","segoe ui",Helvetica,Arial,sans-serif;
  	font-size: 16px;
  }
-
+ section .content .content-left .tan-huong-cuoi-tuan{
+ 	width: 301px;
+ 	height: 30px;
+ 	position: absolute;
+ 	top: 1067px;
+ 	left: 0px;
+ 	font-family: "Open Sans" ,"segoe ui",Helvetica,Arial,sans-serif ;
+ 	color: purple;
+ 	font-size: 26px;
+ }
+ section .content .content-left .thuong-thuc-ca-khuc{
+ 	width: 303px;
+ 	height: 15px;
+ 	position: absolute;
+ 	top: 1107px;
+ 	font-size: 14px;
+ 	color: #555;
+ }
+ section .content .content-left .chu-de{
+ 	width: 152px;
+ 	height: 194px;
+ 	position: absolute;
+ 	top: 1142px;
+ }
+ section .content .content-left .chu-de .chu-de-anh{
+ 	width: 152px;
+ 	height: 152px;
+ 	position: absolute;
+ 	top: 0px;
+ } 
+ section .content .content-left .chu-de .chu-de-title{
+ 	width: 152px;
+ 	height: 31px;
+ 	position: absolute;
+ 	top: 163px;
+ 	font-size: 14px;
+ }
+ section .content .content-left .chu-de a{
+ 	text-decoration: none;
+ 	color: black;
+ }
+ section .content .content-left .chu-de a:hover{
+ 	color: #a845de;
+ }
+ section .content .content-left .video-hot{
+ 	width: 154px;
+ 	height: 21px;
+ 	position: absolute;
+ 	top: 1645px;
+ 	font-size: 26px;
+ 	line-height: 21px;
+ 	font-weight: 300;
+ 	font-family: "Open Sans","segoe ui",Helvetica,Arial,sans-serif;
+ }
+ section .content .content-left .video-hot img{
+ 	position: absolute;
+ 	right: 0px;
+ 	top: 3px;
+ }
+ section .content .content-left .video{
+ 	width: 144px;
+ 	height: 144px;
+ 	position: absolute;
+ 	top: 1690px;
+ 	left: 4px;
+ }
+ section .content .content-left .video .video-anh{
+ 	width: 144px;
+ 	height: 79px;
+ 	position: absolute;
+ 	top: 0px;
+ }
+ section .content .content-left .video .video-ten{
+ 	width: 144px;
+ 	height: 32px;
+ 	position: absolute;
+ 	top: 93px;
+ 	font-family: "Roboto","segoe ui",Helvetica,Arial,sans-serif;
+ 	font-size: 14px;
+ }
+ section .content .content-left .video a{
+ 	text-decoration: none;
+ 	color: black;
+ }
+ section .content .content-left .video a:hover{
+ 	color: #a845de;
+ }
+ section .content .content-left .video .video-ca-si a{
+ 	color: #888;
+ }
+ section .content .content-left .video .video-ca-si a:hover{
+ 	color: #a845de;
+ }
+ section .content .content-left .video .video-ca-si{
+ 	width: 144px;
+ 	height: 17px;
+ 	position: absolute;
+ 	top: 112px;
+ 	font-size: 12px;
+ 	font-family: "Roboto","segoe ui",Helvetica,Arial,sans-serif;
+ 	line-height: 17px;
+ }
+ section .content .content-left .album-hot{
+ 	width: 163px;
+ 	height: 20px;
+ 	position: absolute;
+ 	top: 2181px;
+ 	font-family: "Open Sans","segoe ui",Helvetica,Arial,sans-serif;
+ 	font-size: 26px;
+ 	line-height: 20px;
+ }
+ section .content .content-left .album-hot a{
+ 	text-decoration: none;
+ 	color: purple;
+ }
+ section .content .content-left .album-hot img{
+ 	position: absolute;
+ 	right: 0px;
+ 	top: 3px;
+ }
+ section .content .content-left .album{
+ 	width: 150px;
+ 	height: 213px;
+ 	position: absolute;
+ 	top: 2225px;
+ 	background-color: blue;
+ }
+ section .content .content-left .album .album-anh{
+	width: 150px;
+	height: 150px;
+	background-color: orange;
+ }
  section .content .content-right{
  	width: 300px;
  	height: 4000px;
